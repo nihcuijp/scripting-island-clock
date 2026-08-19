@@ -88,7 +88,7 @@ async function stopClock(): Promise<boolean> {
 
   const state = await LiveActivity.getActivityState(activityId)
   if (state === "active" || state === "stale") {
-    const activity = LiveActivity.from(activityId, ACTIVITY_NAME)()
+    const activity = await LiveActivity.from(activityId, ACTIVITY_NAME)
     await activity.end(makeClockState(), { dismissTimeInterval: 0 })
   }
   Storage.remove(ACTIVITY_ID_KEY)
