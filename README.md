@@ -4,7 +4,9 @@
 
 ## 直接安装
 
-在 Scripting 中导入下面的 ZIP 链接：
+[点击一键安装到 Scripting](https://scripting.fun/import_scripts?urls=%5B%22https:%5C/%5C/github.com%5C/nihcuijp%5C/scripting-island-clock%5C/releases%5C/latest%5C/download%5C/island-clock.zip%22%5D)
+
+如果一键安装没有打开 Scripting，也可以在 Scripting 中手动导入下面的 ZIP 链接：
 
 `https://github.com/nihcuijp/scripting-island-clock/releases/latest/download/island-clock.zip`
 
